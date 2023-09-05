@@ -11,6 +11,10 @@ interface AnimalEat {
     public void travel() {
        System.out.println("Animal is travelling");
     }
+
+    public void walk() {
+       System.out.println("Animal is walking");
+    }
  }
  public class first {
     public static void main(String args[]) {
